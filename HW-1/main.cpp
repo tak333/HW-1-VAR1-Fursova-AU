@@ -6,5 +6,7 @@ int main()
 
 	std::cout << a + b + c;
 
+	int d = a + b + c;
+
 	return 0;
 }
