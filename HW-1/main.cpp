@@ -18,7 +18,7 @@ void task2()
 
 	std::cin >> n;
 
-	std::cout << n << std::endl;
+	std::cout << n % 10 << std::endl;
 }
 
 int main()
