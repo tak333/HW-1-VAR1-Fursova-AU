@@ -11,9 +11,20 @@ void task1()
 	std::cout << a - b << std::endl;
 }
 
+//Ex2. Find the last digit
+void task2()
+{
+	int n;
+
+	std::cin >> n;
+
+	std::cout << n << std::endl;
+}
+
 int main()
 {
 	task1();
+	task2();
 
 	return 0;
 }
