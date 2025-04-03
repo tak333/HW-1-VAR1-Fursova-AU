@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 //Ex1. Calculate the sum and difference of 2 numbers
 void task1()
@@ -7,8 +8,8 @@ void task1()
 
 	std::cin >> a >> b;
 
-	std::cout << a + b << std::endl;
-	std::cout << a - b << std::endl;
+	std::cout << std::setw(5) << a + b << std::endl;
+	std::cout << std::setw(5) << a - b << std::endl;
 }
 
 //Ex2. Find the last digit
