@@ -1,12 +1,19 @@
 #include <iostream>
 
+//Ex1. Calculate the sum and difference of 2 numbers
+void task1()
+{
+	int a, b;
+
+	std::cin >> a >> b;
+
+	std::cout << a + b << std::endl;
+	std::cout << a - b << std::endl;
+}
+
 int main()
 {
-	int a, b, c;
-
-	std::cout << a + b + c;
-
-	int d = a + b + c;
+	task1();
 
 	return 0;
 }
